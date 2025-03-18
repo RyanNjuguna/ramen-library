@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramen Rating App</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="main.js"></script>
+</head>
+<body>
+    <h1>Ramen Rating App</h1>
+    <div id="ramen-menu"></div>
+
+    <div id="ramen-detail">
+        <h2 id="ramen-name">Select a Ramen</h2>
+        <p id="ramen-restaurant"></p>
+        <img id="ramen-image" src="">
+        <p>Rating: <span id="ramen-rating"></span></p>
+        <p>Comment: <span id="ramen-comment"></span></p>
+    </div>
+
+    <h2>Add New Ramen</h2>
+    <form id="ramen-form">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="text" id="restaurant" placeholder="Restaurant" required>
+        <input type="text" id="image" placeholder="Image URL" required>
+        <input type="number" id="rating" placeholder="Rating" min="1" max="5" required>
+        <input type="text" id="comment" placeholder="Comment" required>
+        <button type="submit">Add Ramen</button>
+    </form>
+
+    
+        
+    
+</body>
+</html>
